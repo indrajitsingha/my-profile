@@ -55,7 +55,7 @@ const Home = () => {
                         >
                             View My Work <ArrowRight className="ml-2" size={20} />
                         </button>
-                        <a href='..\public\asset\indrajit_singha_resume.pdf'
+                        <a href='/asset/indrajit_singha_resume.pdf'
                             onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
                             variant="outline"
                             className="border-purple-600 text-purple-400  hover:text-white px-8 py-6 text-lg"
